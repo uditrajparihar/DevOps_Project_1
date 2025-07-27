@@ -72,7 +72,7 @@ class TestFlaskApp(unittest.TestCase):
     def test_home_page_has_profile_icon(self):
         """Test that the home page contains the profile icon emoji"""
         response = self.app.get('/')
-        self.assertIn(b'👤', response.data)
+        self.assertIn('👤'.encode('utf-8'), response.data)
     
     def test_home_page_has_phone_link(self):
         """Test that the phone number is rendered as a clickable link"""
