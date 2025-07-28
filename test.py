@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Your personal information
 PERSONAL_INFO = {
     'name': 'Udit Raj Parihar',  # Replace with your actual name
-    'phone': '+1 (226) 123-1234'  # Replace with your actual phone number
+    'phone': '+1 (226) 883-3149'  # Replace with your actual phone number
 }
 
 # HTML template with modern styling
